@@ -12,31 +12,35 @@
         <div>
             <label>First Name:* </label>
             <input type="text" name = "firstName">
-        </div>
+        </div> 
+
         <div>
             <label>Last Name:* </label>
             <input type="text" name = "lastName">
         </div>
+
         <div>
             <label>Email Address:* </label>
             <input type="text" name = "email">
         </div>
+
         <div>
             <label>Password:* </label>
             <input type="password" name = "password">
         </div>
+
         <div>
             <label>Confirm Password:* </label>
             <input type="password" name = "confirmPassword">
         </div>
+
         <div>
             <label>Birthday: </label>
             <input type="date" name = "birthday">
         </div>
-        <div>
-            <label>Gender Identity: </label>
-        </div>
-
+        <br>
+        <label>Gender Identity: </label>
+        
         <div>
             <input type="radio" name = "genderIdent" value = "Male" id="Male">
             <label for="Male">Male</label>
@@ -51,13 +55,17 @@
             <label for="I prefer not to answer">I prefer not to answer</label>
         </div>
 
+        <br>
+
         <div>
-            <label>A short descriiption about myself</label>
+            <label>A short description about myself:</label>
         </div>
         
         <div>
-            <input type="textarea" name="aboutMe" id="aboutMe" cols="45" rows="4"></textarea>
+            <textarea name="description" id="description" cols="40" rows="2"></textarea>
         </div>
+
+        <br>
 
         <div>
             <label>Favorite Language: </label>
@@ -68,7 +76,7 @@
                 <option>Java</option>
             </select>
         </div>
-
+        <br>
         <div>
             <input type="checkbox" checked name="moreInfo" id="moreInfo">
             <label for="moreInfo">Yes, I would like to receive periodic email updates</label>
@@ -76,9 +84,10 @@
 
         <input type="submit" value="Create Account">
 
-        <div>
-            <label>* Indicates a required field</label>
-        </div>
+        <p>
+           <label>* Indicates a required field</label>
+        </p>
+        
 
     </form>
     
