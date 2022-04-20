@@ -1,0 +1,47 @@
+.button1{
+    width: 160px;
+    height: 42px;
+    color: teal;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    text-emphasis: 800;
+    font-family: Arial;
+    border: 3px solid teal;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+}
+.button2{
+    background-color:teal;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+.button3{
+    background-color:dodgerblue;
+    width: 220px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 6px black;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
