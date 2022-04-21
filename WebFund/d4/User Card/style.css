@@ -1,0 +1,54 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#topstripe{
+    width: 648px;
+    height: 100px;
+    border: 3px;
+    background-color: teal;
+    border-color: grey;
+
+}
+#bodyofcard{
+    width: 600px;
+    height: 220px;
+    border-left: 4px solid rgb(219, 213, 213);
+    border-bottom: 4px solid rgb(219, 213, 213);
+    border-right: 4px solid rgb(219, 213, 213);
+    color: black;
+    padding: 20px;
+}
+#photo img{
+    height: 100px;
+    margin-top: -70px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: 3px solid rgb(219, 213, 213);
+}    
+#name{
+    font-size: 40px;
+    margin-bottom: 10px;
+}  
+#cityMarker img{
+    height: 25px;
+    float: left;
+}
+#cityName{
+    font-size: 22px; 
+    display: inline;
+    padding-left: 10px;
+}
+p{
+    margin: 0px;
+}
+#skills{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    justify-content: left;
+}
+#editProfile img{
+    height:20px;
+    float: left;
+}
