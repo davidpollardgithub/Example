@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="searchBar">
+        <h1 class="title">Dojonary</h1>
+        <div id="searchBox">Search
+        </div>
+        <div>
+            <button class="loginbtn" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div id="bigbox">
+        <div class="leftbox">
+            <div class="ninjabox">
+                <div class="nbcolumn1">
+                    <h1 class="title">ninja</h1>
+                    <p class="wordtype italic">noun</p>
+                    <p class="plural">Plural:</p>
+                    <p class=" plural italic">ninjas</p>
+                    <button class="likebtn" onclick="likealert()">13 likes</button>
+                </div>
+                <div class="nbcolumn2">
+                    <p class="defbox">A practioner skilled in the <a href="#">Japanese </a>art of <a
+                            href="#">ninjutsu</a> </p>
+                    </p>
+                </div>
+            </div>
+            <div class="ninjabox">
+                <div class="nbcolumn1">
+                    <h1 class="title">ninja</h1>
+                    <p class="wordtype italic">noun</p>
+                    <p class="plural">Plural:</p>
+                    <p class=" plural italic">ninjas</p>
+                    <button class="likebtn" onclick="likealert()">13 likes</button>
+                </div>
+                <div class="nbcolumn2">
+                    <p class="defbox">A <a href="#">Programmer </a>who breaks down problems with
+                        <a href="#"> zen <a>like focus</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="rightbox">
+            <div id="deffaddbox">
+                <p class="defftitle">Dojonary is defined by YOU
+                </p>
+                <button id="deffaddbtn" onclick="removeaddbtn(this)">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+        function logout(element) {
+            element.innerText = "Logout";
+        }
+        function removeaddbtn(element) {
+            element.remove();
+        }
+        function likealert() {
+            alert("Ninja was liked");
+        }
+    </script>
+</body>
+
+</html>
