@@ -24,12 +24,6 @@ li{
     display: inline;
     padding: 10px;
 }
-a{
-    color: white;
-}
-a:link {
-     text-decoration: none; 
-}
 .active{
     font-weight: bold;
 }
@@ -40,19 +34,18 @@ a:link {
     border: 3px solid black;
     box-shadow: 4px 4px black;
 }
+
 .row{
+    padding: 20px;
     display: flex;
-    flex-direction: row;
 }
 .col1{
     height: 800px;
-    border: 3px dotted pink;
     flex: 1;   
 }
 .col2{
     padding-left: 80px;
     height: 800px;
-    border: 3px dotted pink;
     flex: 2;    
 }
 #topstripe{
@@ -104,7 +97,6 @@ p{
 }
 #editProfile img{
     height:20px;
-    float: left;
 }
 #edbanner{
     margin-top: 20px;
@@ -143,7 +135,7 @@ font-size: 24px;
     font-size: 20px;
     height: 60px;
     width: 390px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     background-color: rgb(68, 67, 67);
 }
@@ -166,37 +158,35 @@ font-size: 24px;
 }
 #reqBody{
     width: 350px;
-    height: 130px;
+    height: 160px;
     border-left: 4px solid rgb(219, 213, 213);
     border-bottom: 4px solid rgb(219, 213, 213);
     border-right: 4px solid rgb(219, 213, 213);
     color: black;
     padding: 20px;
 }
-#reqImg img{
-    height: 30px;
+.reqImg img{
+    height: 40px;
     border: 3px solid white;
     border-radius: 50%;
     outline: 3px solid rgb(219, 213, 213);
 }
-#reqName{
+.reqName{
+    width: 150px;
     font-size: 25px;
-    display: inline;
 }
-#closeIcon{
+#acceptIcon img{
     height: 30px;
-    float: right;
-}
-#acceptIcon{
-    height: 20px;
-    float: right;
-}
+} 
+#closeIcon img{
+    height: 30px;
+} 
 #connBanner{
     padding-left: 8px;
     padding-top: 8px;
     font-size: 20px;
     height: 60px;
-    width: 390px;
+    width: 390px; 
     margin-top: 20px;
     color: white;
     background-color: rgb(68, 67, 67);
@@ -219,11 +209,22 @@ background-color: grey;
     padding-right: 22px;
 }
 #connBody{
-    width: 350px;
-    height: 230px;
+    width: 370px;
+    height: 350px;
     border-left: 4px solid rgb(219, 213, 213);
     border-bottom: 4px solid rgb(219, 213, 213);
     border-right: 4px solid rgb(219, 213, 213);
     color: black;
-    padding: 20px;
+    padding-left: 20px;
+}
+#vmbox{
+    height: 50px;
+    width: 360px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+    border-left: 4px solid rgb(219, 213, 213);
+    border-bottom: 4px solid rgb(219, 213, 213);
+    border-right: 4px solid rgb(219, 213, 213);
 }
