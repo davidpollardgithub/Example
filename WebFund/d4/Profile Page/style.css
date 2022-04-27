@@ -3,7 +3,8 @@
 }
 .nav{
     height: 70px;
-    width: 980px;
+    width: 990px;
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: rgb(70, 67, 65);
