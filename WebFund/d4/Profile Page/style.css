@@ -20,6 +20,14 @@
     justify-content: right;
     padding-top: 10px;
 }
+.nav-links a{
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;  
+    justify-content: right;
+    padding-top: 10px;
+    text-decoration: none;
+}
 li{
     font-size: medium;
     display: inline;
@@ -35,13 +43,34 @@ li{
     border: 3px solid black;
     box-shadow: 4px 4px black;
 }
+#Rick{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: 3px solid rgb(219, 213, 213);
+    display: inline-block;
+}
 img{
-        height: 40px;
-        border: 3px solid white;
-        border-radius: 50%;
-        outline: 3px solid rgb(219, 213, 213);
-        display: inline-block;
-    }    
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: 3px solid rgb(219, 213, 213);
+    display: inline-block;
+}   
+
+.btnstuff{
+    height: 35px;
+    width: 35px;
+    margin-right:10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: 3px solid rgb(219, 213, 213);
+    display: inline-block;
+}    
 .row{
     padding: 20px;
     display: flex;
@@ -74,6 +103,7 @@ img{
 }
 #photo img{
     height: 100px;
+    width: 100px;
     margin-top: -70px;
     border: 3px solid white;
     border-radius: 50%;
@@ -85,6 +115,7 @@ img{
 }  
 #cityMarker img{
     height: 25px;
+    width: 25px;
     float: left;
 }
 #cityName{
@@ -102,8 +133,10 @@ p{
     font-size: 20px;
     justify-content: left;
 }
+
 #editProfile img{
     height:20px;
+    width: 20px;
 }
 #edbanner{
     margin-top: 20px;
@@ -173,7 +206,7 @@ font-size: 24px;
     padding: 20px;
 }
 .connection{
-    margin: 10px;
+    padding-bottom: 10px;
 }
 .reqName{
     width: 150px;
